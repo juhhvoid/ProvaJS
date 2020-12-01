@@ -19,9 +19,20 @@ h1{
 h2{
     margin-top: 10px;
 }
- table th{
-    border: 1px solid black;
-    margin-left: 0;
-    padding-left:10px;
-    padding-right: 10px;
+
+th {
+    border-right: 1px solid;
+}
+
+td {
+    padding: 0;
+}
+.tab {
+    min-width: 800px;
+    border-spacing: 0;
+    border: 1px solid;
+}
+
+#res {
+    text-align: right;
 }

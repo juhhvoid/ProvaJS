@@ -19,18 +19,22 @@
         </div>    
         <div>
         <label for="venc">Data de Vencimento</label>
-        <input type="text" id="venc">
+        <input type="date" id="venc">
         </div> 
         <div>
-        <label for="tip">Tipo</label>
-        <input type="text" id="tip">
+        <label for="tip">Tipo:</label>
+        <select name="Tipo" id="tip" value="Tipo">
+            <option value="receita">Receita</option>
+            <option value="despesa">Despesa</option>
+        </select>
+        
         </div> 
 
         <input type="button" value="Salvar" id="saveBtn" onclick="saveData()">
 
         <h2>Contas cadastradas</h2>
 
-        <table id="tab">
+        <table class="tab">
         <tr class="cab">
             <th>Descrição</th>
             <th>Valor</th>
