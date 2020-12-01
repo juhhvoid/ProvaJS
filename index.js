@@ -41,7 +41,6 @@ const saveData = () => {
     col3.style.border = "1px solid black"
     col4.style.border = "1px solid black"
 
-    Number(val.value)
     if (tip.value == 'receita') {
         saldo += Number(val.value)
     }else if (tip.value == 'despesa') {
